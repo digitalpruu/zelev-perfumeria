@@ -1,0 +1,23 @@
+@media (max-width: 770px) {
+    .preHeader-main-container {
+       display: none;
+    }
+
+}
+.preHeader-main-container{
+    background: var(--secondBackground);
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid var(--shadowColor);
+}
+.preHeader-main-container nav {
+    padding-right: 40px;
+}
+.preHeader-main-container div a {
+    height: 40px;
+    width: 40px;
+}
+.preHeader-main-container div {
+    padding-left: 40px;
+    grid-template-columns: repeat(3, 45px);
+}
