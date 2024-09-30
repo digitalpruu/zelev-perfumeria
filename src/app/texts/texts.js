@@ -1,9 +1,9 @@
 const title = "Zelev Perfumería";
-const email = ""; // Información no proporcionada
+const email = "Zelevperfumeria@gmail.com"; // Información no proporcionada
 const mensajeWhatsApp = encodeURIComponent(
     "¡Hola! Estoy muy interesado en tus productos de " + title + " y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // Información no proporcionada
+const numeroWhatsApp = "+573192310635"; // Información no proporcionada
 
 const textos = {
     index: {
@@ -28,7 +28,7 @@ const textos = {
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
+        facebook: "https://www.facebook.com/profile.php?id=61565695419964&mibextid=ZbWKwL",
         instagram: "https://www.instagram.com/",
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },

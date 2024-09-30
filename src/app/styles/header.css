@@ -40,7 +40,8 @@
     .logo{
         transition: transform 0.3s ease;
         padding: 0;
-        padding-right: 10px;
+        background: var(--secondBackground);
+        border-radius: 10%;
     }
     .logo img {
         height: 90px;
