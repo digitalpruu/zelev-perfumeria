@@ -12,11 +12,7 @@
     .about-title{
         font-size: 2em;
     }
-    .about-image-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
     .about-image-container img{
         width: 80%;
         height: auto;
@@ -26,13 +22,17 @@
     }
 
 }
-
+.about-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .honk-title {
     text-align: center;
     font-family: "Elephant", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    padding: 40px;
+    padding-top: 0 !important;
     font-style: normal;
     font-variation-settings:
             "MORF" 15,
