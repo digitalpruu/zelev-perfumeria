@@ -16,7 +16,6 @@ export default function Home() {
         <TheHeader/>
         <HomeContent/>
         <About/>
-        <Catalogue/>
         <ContactUs/>
         <Quote/>
         <TheFooter/>
