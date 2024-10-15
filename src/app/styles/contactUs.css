@@ -55,7 +55,8 @@
 }
 
 .contact-main-div {
-    background: var(--secondBackground);
+    border-bottom: 2px solid var(--secondBackground);
+    background: var(--background);
 }
 
 .contact-image {
